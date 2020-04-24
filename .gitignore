@@ -1,0 +1,16 @@
+#On exclut les fichiers objets/artefacts de compilation
+bin/
+obj/
+lib/
+doc/
+*.o
+
+
+#On ne veut pas d'archive
+*.xz
+
+#Test
+test/test
+
+#Pas de logs d'erreur/crash
+vgcore*
